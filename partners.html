@@ -1,0 +1,103 @@
+<!doctype html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="description" content="Winigent Consulting">
+    <meta name="author" content="">
+    <meta name="viewport" content="width=device-width, user-scalable=no">
+	<title>Winigent Consulting</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" href="css/col.css">
+	<link rel="stylesheet" href="css/8cols.css">
+	<link rel="stylesheet" href="css/style.css">
+	<link rel="stylesheet" href="css/responsive.css">
+	<link href='http://fonts.googleapis.com/css?family=Roboto+Slab:300,400,700' rel='stylesheet' type='text/css'>
+	<link href='http://fonts.googleapis.com/css?family=Droid+Sans:400,700' rel='stylesheet' type='text/css'>
+	<link rel="shortcut icon" href="images/winigentFavicon.ico" type="image/x-icon">
+	<link rel="icon" href="images/winigentFavicon.ico" type="image/x-icon">
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+</head>
+<body>
+	<header>
+		<div id='logo'>
+			<a href='winigent.html'>
+				<img src='images/logo.png' alt='Winigent logo'>
+			</a>
+		</div>
+		<nav>
+			<ul>
+				<li><a href="winigent.html">Home</a></li>
+				<li><a href="partners.html">Partners</a></li>
+				<li><a href="careers.html">Careers</a></li>
+				<li><a href="#footercontainer">Contact</a></li>
+			</ul>
+		</nav>
+	</header>
+	<a href="#logo" id="top"><img src="images/arrow.png"></a>
+	<section class='partner_container templatePartner section group'>
+	</section>
+	<script id='partner_template' type="text/template">
+	<div class='col span_8_of_8'></div>
+	<% for (var i=0; i<Partners.companies.length; i++) { %>
+			<div class='col span_3_of_8 partnerImg'>
+				<img src="<%= Partners.companies[i].image %>" alt=""/>
+			</div>
+			<div class='col span_4_of_8 partnerRemainder'>
+				<h2><%= Partners.companies[i].Title %></h2>
+				<p><%= Partners.companies[i].description %></p>
+			</div>
+	<% } %>
+	<div class='col span_1_of_8'></div>
+	</script>
+	<div id='footercontainer'>
+		<footer class='group'>
+			<div class='col span_1_of_8'></div>
+			<div class='col span_2_of_8'>
+				<p><b>Headquarters location:</b></p>
+				<address>
+				4205 148th Ave NE, Suite 203<br>
+				Bellevue, Wa 98007
+				</address>
+			</div>
+			<div class='col span_2_of_8'>
+				<p><b>India location:</b></p>
+				<address>
+					Gemini Consulting & Services<br>
+					4th Floor, A-BLOCK <br>
+					Sanali Info Park Road NO-2<br>
+					Banjara Hills, Hyderabad AP 500 034
+				</address>
+			</div>
+			<div class='col span_1_of_8'>
+				<p><b>Contact Us:</b></p>
+				<p>Phone:<br>
+					<a href = “tel:1-425-527-9031”>425.527.9031</a><br>
+					<a href = “tel:1-425-527-9031”>425.527.9031</a><br>
+				</p>
+				<p>Fax:<br>
+					425.527.6958
+				</p>
+				<p>
+					<a href="mailto:info@winigent.com">Email</a>
+				</p>
+			</div>
+			<div id='extra' class='col span_1_of_8'>
+				<p>
+					<a href="http://www.linkedin.com/company/winigent"><img src="images/LI.png" alt='linked in logo'></a>
+				</p>
+				<p>
+					<img src="images/omwbe_logo.gif" alt='OMWBE logo'>
+				</p>
+			</div>
+			<div class='col span_1_of_8'></div>
+		</footer>
+	</div>
+	<script src="http://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js" type="text/javascript"></script>
+	<script src="js/site.js" type="text/javascript"></script>
+	<script src="js/winigent.js" type="text/javascript"></script>
+	<script src='https://cdnjs.cloudflare.com/ajax/libs/underscore.js/1.6.0/underscore-min.js' type='text/javascript'></script>
+	<script src="js/partners.js" type="text/javascript"></script>	
+	 <script src="js/site.js" type="text/javascript"></script>	
+	 <script src="group.js" type="text/javascript"></script>
+</body>
+</html>

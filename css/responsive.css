@@ -1,0 +1,160 @@
+/*******************************
+TABLET
+******************************/
+
+
+@media screen and (min-width: 480px) {
+
+
+	/*******************************
+	FOOTER
+	******************************/
+
+
+	footer address, footer p {
+		text-align: left;
+	}
+
+	#extra {
+		margin-left: 20px;
+	}
+
+	#extra img {
+		max-width: 100%;
+	}
+
+	.partnerImage {
+		display: block;
+	}
+
+	.partnerRemainder {
+		display: block;
+	}
+}
+
+
+
+
+/*******************************
+DESKTOP
+******************************/
+
+
+@media screen and (min-width: 768px) {
+
+	#home_wrapper {
+		margin-top: 125px;
+	}
+
+	#career_wrapper {
+		margin-top: 35px;
+	}
+
+
+	/*******************************
+	HEADER
+	******************************/
+
+	header {
+		position: fixed;
+		top: 0;
+		z-index: 1030;
+	}
+
+
+	#logo {
+		width: auto;
+	}
+
+	header img {
+		display: inline-block;
+		padding-left: 0;
+		float: left;
+	}
+
+
+	/*******************************
+	NAVIGATION
+	******************************/
+
+
+	nav {
+		padding: 10px 0;
+		text-align: center;
+	}
+
+	nav li {
+		display: inline-block;
+		padding: 3px auto;
+		border: none;
+		background-color: #fff;
+	}
+
+	nav ul {
+		margin: 0 10px;
+		padding: 0;
+	}
+
+
+	/*******************************
+	CONTENT
+	******************************/
+
+
+	#intro {
+		margin-top: auto;
+	}
+
+	article {
+		font-size: 1.2em;
+	}
+
+	article p {
+		margin: 1em 0;
+	}
+
+	.partner_container {
+		margin-top: 100px;
+	}
+
+
+	/*******************************
+	BREAKS
+	******************************/
+
+
+	.break h1 {
+		font-size: 2.5em;
+	}	
+
+	.break h3 {
+		font-size: 1.25em
+	}
+
+
+	/*******************************
+	FOOTER
+	******************************/
+
+
+	#footercontainer {
+		height: 500px;
+		font-size: 1.25em;
+	}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
